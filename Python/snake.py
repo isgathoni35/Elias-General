@@ -35,3 +35,4 @@ while blocks:
     new_direction = tuple(map(int, input().split()))
     snake.change_direction(new_direction)
     
+    
