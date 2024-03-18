@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    front-size: 62.5%;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    front-size: 1.6rem;
+    background: #f89ad1;
+    color: #ff0095;
+}
+
+.logo {
+    front-size: 4rem;
+    front-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75rem;
+    height: 10rem;
+    background: #f8d1f8;
+}

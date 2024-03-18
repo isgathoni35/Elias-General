@@ -1,0 +1,26 @@
+.icon-cart img {
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.icon-cart img:hover {
+    transition: 1s;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+main {
+    display: block;
+    margin: 5rem 0;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title img {
+    border-radius: 50%;
+    width: 5rem;
+}
